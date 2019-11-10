@@ -8,13 +8,11 @@
 </head>
 
 <body>
-  
-
-</body>
-    <!-- Form Input --> 
-    <form method="post" action="index.php">
+   <!-- Form Input --> 
+   <form method="post" action="index.php">
         <input type="text" name="name" >
         <input type="text" name="lang" >
         <input type="submit" value="Submit">
     </form>
+</body>
 </html>
