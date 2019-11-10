@@ -8,6 +8,17 @@
 </head>
 
 <body>
+
+    <?php
+    //Add PHP $_POST superglobal assignment and echo
+    if(isset($_POST['name'])){
+        $name = $_POST['name'];
+        $lang = $_POST['lang'];
+        echo '<p>' . $name . '</p>';
+        echo '<p>' . $lang . '</p>';
+    }
+    ?>
+
    <!-- Form Input --> 
    <form method="post" action="index.php">
         <input type="text" name="name" >
